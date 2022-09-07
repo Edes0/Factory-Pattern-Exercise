@@ -9,6 +9,7 @@ Check after examples online and try yourself, if you get stuck and don't get it.
 
 Good source for information https://refactoring.guru/design-patterns/factory-method
 
+You can also try to create an abstract factory when you are done creating a normal one :)
 Good luck <3
 
 Example taken from: https://www.youtube.com/watch?v=xVwWueAMkag&ab_channel=ProgrammingwithFabio
