@@ -2,13 +2,14 @@
 using FactoryPatternExercise.Factories;
 
 DateTime lastLog = DateTime.Now;
-var logType = LoggerType.Console;
 
 while (true)
 {
     if (lastLog <= DateTime.Now)
     {
-        ILogger logger = LoggerFactory.CreateLogger(logType);
+        LoggerFactory loggerFactory = new BetterConsoleLoggerFactory();
+        ILogger logger = loggerFactory.Create();
+
 
         var result = $"Important work was done at {DateTime.Now}";
         logger.Log(result);

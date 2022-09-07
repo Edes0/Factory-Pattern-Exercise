@@ -2,7 +2,7 @@
 
 namespace FactoryPatternExercise.Loggers
 {
-    class FileLogger : ILogger
+    public class FileLogger : ILogger
     {
         public void Log(string logData)
         {
